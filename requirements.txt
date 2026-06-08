@@ -34,3 +34,7 @@ pypdf
 
 # Agent Framework
 langgraph
+
+# Web Framework
+fastapi
+uvicorn
