@@ -41,7 +41,7 @@ SpaceX is also developing the Starlink satellite constellation, which will provi
 
 The company has achieved many milestones in the space industry, including the first private company to launch, orbit, and recover a spacecraft, the first private company to send a spacecraft to the International Space Station, and the first private company to send a spacecraft to Mars. SpaceX is also the first company to develop a fully reusable rocket, which has significantly reduced the cost of space transportation.
 """
-
+    
 result = final_chain.invoke({'text' : text})
 print(result)
 
