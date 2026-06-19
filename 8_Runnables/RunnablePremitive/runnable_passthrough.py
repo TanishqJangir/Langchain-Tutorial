@@ -12,14 +12,10 @@ prompt1 = PromptTemplate(
     template='Write a joke about {topic}',
     input_variables=['topic']
 )
-
 prompt2 = PromptTemplate(
     template='Explain the following joke - {joke}',
     input_variables=['joke']
 )
-
-passthrough = RunnablePassthrough()
-
 parser = StrOutputParser()
 
 chain1 = RunnableSequence(prompt1, model, parser)
@@ -29,7 +25,6 @@ chain2 = RunnableParallel({
 })
 
 final_chain = RunnableSequence(chain1, chain2)
-
 result = final_chain.invoke({'topic' : 'AI'})
 
 print(result)
