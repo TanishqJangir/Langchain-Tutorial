@@ -1,4 +1,4 @@
-from langchain_classic.text_splitter import CharacterTextSplitter
+from langchain_text_splitters import CharacterTextSplitter
 from langchain_community.document_loaders import PyPDFLoader
 
 loader = PyPDFLoader('9_RAG\\Text_Splitter\\AI.pdf')
