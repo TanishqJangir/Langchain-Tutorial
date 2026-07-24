@@ -6,5 +6,4 @@ docs = loader.load()
 
 print(docs)
 
-print(docs[0].page_content)
 print(docs[1].page_content)
