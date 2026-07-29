@@ -1,0 +1,7 @@
+{
+    "python.testing.pytestArgs": [
+        "11_Tool_in_LangChain"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
+}
